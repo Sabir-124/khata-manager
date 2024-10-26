@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KhataManager—Manage your accounts with ease and peace</title>
+    <link rel="icon" href="logos/intro-logo.png" type="image/png">
+    <link rel="stylesheet" href="CSS/account-intro-page.css">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <div>
+          <img class="header-logo" src="logos/intro-logo.png" alt="web-logo" onclick="scrollToAboutus()">
+        </div>
+        <div>
+          <h1 id="header-title" onclick="scrollToAboutus()">KhataManager</h1>
+        </div>
+      </div>
+      <div class="right-section">
+        <button onclick="scrollToAboutus()" class="AboutUs">About Us</button>
+        <button onclick="scrollToWhy()" class="whyKhata">Why <strong>KhataManager</strong>?</button>
+        <button onclick="scrollToSignup()">Sign up</button>
+      </div>
+    </div>
+
+    <div class="whole" id="whole">
+
+      <div class="first">
+        <div class="first-half">
+          <h1 class="welcome-line">Welcome to KhataManager!</h1>
+          <h1 class="second-line">Simplifying Your Account Management Experience!</h1>
+          <p class="introduction-line">Managing multiple accounts can be overwhelming, but with <strong>KhataManager</strong>, it's never been easier. Our platform is tailored to meet the needs of individuals and businesses alike, offering a seamless solution for all your account management needs.</p>
+        </div>
+        <div class="second-half">
+          <img class="pic" src="pics/intro_page.jpeg" alt="account management pic">
+        </div>
+      </div>
+
+      <div class="second">
+        <h1 class="heading2">OUR MISSION</h1>
+        <p class="introduction-line" id="why">Our mission is to empower our clients with the knowledge and resources needed to take control of their finances. We believe in making account management accessible, efficient, and stress-free, allowing you to focus on what truly matters.</p>
+      </div>
+
+      <div class="third">
+        <div class="Heading">
+          <h1>Why Choose KhataManager?</h1>
+        </div>
+        <div class="why-part">
+          <div class="introduction-line2">
+            <ul class="introduction-line2-lists">
+              <li>
+                <strong><u>Unified Dashboard:</u></strong> View and manage all your accounts in one place with our user-friendly interface.
+              </li>
+              <li>
+                <strong><u>Expertise:</u></strong> With years of experience in the financial industry, our team is equipped to handle even the most complex account management challenges.
+              </li>
+              <li>
+                <strong><u>Innovation:</u></strong> We leverage the latest technology to provide you with up-to-date tools and features that enhance your account management experience.
+              </li>
+              <li>
+                <strong><u>Security:</u></strong> Your financial data is our top priority. We implement industry-leading security measures to ensure your information is always protected.
+              </li>
+              <li>
+                <strong><u>Personalized Service:</u></strong> We know that every client is unique. That's why we tailor our services to meet your specific needs and preferences.
+              </li>
+            </ul>
+          </div>
+          <div class="why-class-pic">
+            <img class="why-pic" src="pics/why2.png" alt="account management pic 2">
+          </div>
+        </div>
+      </div>
+
+      <div class="fourth">
+        <h1 class="heading2">OUR VISION</h1>
+        <p class="introduction-line" id="signup">We envision a future where everyone has the confidence and capability to manage their accounts with ease. By providing innovative solutions and exceptional service, we aim to be the go-to platform for account management worldwide.</p>
+      </div>
+
+      <div class="last">
+        <div class="Heading">
+          <h1>Join Us!</h1>
+        </div>
+        <div class="join-introduction-line">
+          <p class="introduction-line">Thousands of satisfied clients trust <strong>KhataManager</strong> to manage their accounts with precision and care. Join us today and take the first step towards a more organized and secure financial future.</p>
+          <p class="introduction-line">Register now to gain full access to our services to manage your accounts and start enjoying exclusive benefits.</p>
+        </div>
+      </div>
+
+      <a href="#">
+        <button class="register-button">Register</button>
+      </a>
+
+    </div>
+
+    <div class="footer">
+      <div class="download-suggest">
+        Unlock the full potential of our services by using our app ultimate tool for seamless and convenient access anytime, anywhere.
+      </div>
+      <div class="download-links">
+        <div class="image-links">
+          <img class="image" alt="playStore link" src="pics/playStore.png">
+        </div>
+        <div class="image-links">
+          <img class="image" alt="appStore link" src="pics/appStore.png">
+        </div>
+        <div class="image-links">
+          <img class="image" alt="appGallery link" src="pics/appGallery.png">
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function scrollToAboutus() {
+        document.getElementById('whole').scrollIntoView({behavior: 'smooth'});
+      }
+      function scrollToWhy() {
+        document.getElementById('why').scrollIntoView({behavior: 'smooth'});
+      }
+      function scrollToSignup() {
+        document.getElementById('signup').scrollIntoView({behavior: 'smooth'});
+      }
+    </script>
+
+  </body>
+</html>
